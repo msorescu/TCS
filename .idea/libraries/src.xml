@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../cs2j/CS2JLibrary/src" />
+    </SOURCES>
+  </library>
+</component>

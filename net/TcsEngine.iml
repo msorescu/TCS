@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../out/production/TcsEngine" />
+    <output-test url="file://$MODULE_DIR$/../out/test/TcsEngine" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/toppro/components/mls/engine/client" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/toppro" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/toppro/components/mls" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/toppro/components/mls/engine" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/toppro/components" isTestSource="false" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Github/cs2j/CS2JLibrary/lib/commons-codec-1.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../cs2j/CS2JLibrary/lib/commons-codec-1.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -17,7 +26,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Github/cs2j/CS2JLibrary/lib/commons-lang-2.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../cs2j/CS2JLibrary/lib/commons-lang-2.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -26,12 +35,11 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Github/cs2j/CS2JLibrary/lib/mail.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../cs2j/CS2JLibrary/lib/mail.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="TCSEXECUTIVE.NET" level="project" />
   </component>
 </module>

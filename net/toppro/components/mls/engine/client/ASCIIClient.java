@@ -1,28 +1,17 @@
 //
 // Translated by CS2J (http://www.cs2j.com): 10/5/2015 1:33:33 PM
 //
-
 package net.toppro.components.mls.engine.client;
-
 import CS2JNet.System.IO.FileAccess;
 import CS2JNet.System.IO.FileMode;
 import CS2JNet.System.IO.FileNotFoundException;
 import CS2JNet.System.IO.FileStreamSupport;
 import CS2JNet.System.StringSupport;
-import CS2JNet.System.Text.StringBuilderSupport;
+import net.toppro.components.mls.engine.*;
+import net.toppro.components.mls.engine.client.STRINGS;
+
 import java.io.File;
 import java.util.Calendar;
-import java.util.Date;
-import net.toppro.components.mls.engine.BoardSetup;
-import net.toppro.components.mls.engine.client.STRINGS;
-import net.toppro.components.mls.engine.DefParser;
-import net.toppro.components.mls.engine.Environment;
-import net.toppro.components.mls.engine.FileFilter;
-import net.toppro.components.mls.engine.MLSException;
-import net.toppro.components.mls.engine.MLSRecord;
-import net.toppro.components.mls.engine.MLSRecords;
-import net.toppro.components.mls.engine.MLSUtil;
-import net.toppro.components.mls.engine.PropertyFieldGroups;
 
 public class ASCIIClient  extends net.toppro.components.mls.engine.CommunicationClient 
 {

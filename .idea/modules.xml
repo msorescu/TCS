@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TCS.iml" filepath="$PROJECT_DIR$/TCS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/net/TcsEngine.iml" filepath="$PROJECT_DIR$/net/TcsEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCSEngine.iml" filepath="$PROJECT_DIR$/TCSEngine.iml" />
     </modules>
   </component>
 </project>
