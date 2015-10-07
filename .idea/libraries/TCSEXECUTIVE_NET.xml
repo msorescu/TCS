@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="TCSEXECUTIVE.NET">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/JavaEnvironment/TCSEXECUTIVE.NET/out/production/TCSEXECUTIVE.NET/commons-lang-2.6.jar!/" />
+      <root url="jar://$USER_HOME$/JavaEnvironment/TCSEXECUTIVE.NET/out/production/TCSEXECUTIVE.NET/java-mail-1.4.4.jar!/" />
+      <root url="jar://$USER_HOME$/JavaEnvironment/TCSEXECUTIVE.NET/out/production/TCSEXECUTIVE.NET/commons-lang3-3.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
