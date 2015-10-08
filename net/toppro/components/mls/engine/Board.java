@@ -12,6 +12,8 @@ import CS2JNet.System.Xml.XmlWriter;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.regex.Pattern;
+
+import com.sun.deploy.xml.XMLNode;
 import net.toppro.components.mls.engine.DataAggResultFieldType;
 import net.toppro.components.mls.engine.DataAggResultTable;
 import net.toppro.components.mls.engine.HelpInfoTable;
@@ -110,9 +112,9 @@ public class Board
     }
 
     public void createChildNodes() throws Exception {
-        XmlNode defList = getMLSSystem().getEnvironment().getMetaDataDEFList();
-        XmlNode agentRoster = null;
-        XmlNode officeRoster = null;
+        XMLNode defList = getMLSSystem().getEnvironment().getMetaDataDEFList();
+        XMLNode agentRoster = null;
+        XMLNode officeRoster = null;
         setStatusID(defList.getAttributes()[MLSConnector.ATTRIBUTE_BOARD_STATUS].Value);
         setStatusDescription(getStatusDescription(getStatusID()));
         m_searchTable = new SearchTable(this);
@@ -152,7 +154,7 @@ public class Board
         m_mlsEngine = new net.toppro.components.mls.engine.MLSEngine[defList.getChildNodes().size()];
         for (int i = 0;i < defList.getChildNodes().size();i++)
         {
-            XmlNode ele = defList.getChildNodes().get(i);
+            XMLNode ele = defList.getChildNodes().get(i);
             String defPath = defList.getChildNodes().get(i).getAttributes()[MLSConnector.ATTRIBUTE_DEFINITION_FILE].Value;
             m_mlsEngine[i] = new net.toppro.components.mls.engine.MLSEngine(getMLSSystem().getEnvironment(), Util.loadFile(defPath), null);
             if (i == 0)

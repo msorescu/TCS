@@ -6,6 +6,8 @@ package net.toppro.components.mls.engine;
 
 import CS2JNet.System.Xml.XmlNode;
 import java.net.URI;
+
+import com.sun.deploy.xml.XMLNode;
 import net.toppro.components.mls.engine.Environment;
 import net.toppro.components.mls.engine.MLSException;
 
@@ -136,7 +138,7 @@ public abstract class Environment
     * Get a list of the def-files.
     *  @return  a list of the def-files path.
     */
-    public abstract XmlNode getMetaDataDEFList() throws Exception ;
+    public abstract XMLNode getMetaDataDEFList() throws Exception ;
 
     /**
     * Get Standard Property Mappings By BoardId

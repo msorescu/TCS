@@ -7,16 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <content url="file://$MODULE_DIR$/../cs2j/CS2JLibrary">
-      <sourceFolder url="file://$MODULE_DIR$/../cs2j/CS2JLibrary/src" isTestSource="false" />
-    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="commons-codec-1.4" level="project" />
-    <orderEntry type="library" exported="" name="commons-lang-2.4" level="project" />
-    <orderEntry type="library" exported="" name="mail" level="project" />
-    <orderEntry type="library" exported="" name="ant-antlr3" level="project" />
-    <orderEntry type="library" exported="" name="ant-dotnet-1.0" level="project" />
-    <orderEntry type="library" exported="" name="antlr-3.3" level="project" />
   </component>
 </module>

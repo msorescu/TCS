@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../cs2j/CS2JLibrary/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../cs2j/CS2JLibrary/lib/commons-codec-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../cs2j/CS2JLibrary/lib/commons-lang-2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

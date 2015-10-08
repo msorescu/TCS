@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ant-dotnet-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../cs2j/CSharpTranslator/jar/ant-dotnet-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
